@@ -20,7 +20,7 @@ a{text-decoration:none;color:inherit}
 .nav-wrap{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .brand{display:flex;align-items:center;gap:12px}
 .brand-mark{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;background:var(--teal);color:#fff;font-size:29px;font-weight:800;box-shadow:0 8px 18px rgba(18,170,163,.22)}
-.brand-logo{width:64px;height:64px;object-fit:contain;flex-shrink:0}
+.brand-logo{width:56px;height:56px;object-fit:contain;flex-shrink:0}
 .brand strong{display:block;font-size:17px;line-height:1.2}
 .brand small{display:block;color:#8a98ae;font-size:11px;margin-top:3px}
 .nav{display:flex;align-items:center;gap:34px}
@@ -90,6 +90,7 @@ h1 span{color:var(--teal)}
 .footer{background:#fff;border-top:1px solid var(--line);padding-top:55px}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:50px;padding-bottom:35px}
 .footer-brand{display:flex;align-items:center;gap:10px;font-size:18px}.footer-brand .brand-mark{width:40px;height:40px;font-size:23px;border-radius:13px}
+
 .footer-grid p{color:var(--muted);max-width:430px}.footer-grid h4{margin:0 0 10px}.footer-grid a{display:block;color:var(--muted);margin:5px 0;font-size:14px}
 .copyright{text-align:center;border-top:1px solid var(--line);padding:18px;color:#9aa7b8;font-size:12px}
 
