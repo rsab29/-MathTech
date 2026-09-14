@@ -116,7 +116,7 @@ h1 span{color:var(--teal)}
   .footer-grid{grid-template-columns:1fr;gap:25px}
 }
 .telegram-logo {
-  opacity: 0.12;
+  opacity: 0.16;
 }
 .telegram-box {
   position: relative;
