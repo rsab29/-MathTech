@@ -3,182 +3,800 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="الرياضيات والتقنية - منصة تعليمية للمرحلة الابتدائية">
-  <title>الرياضيات والتقنية | منصة تعليمية</title>
+
+  <meta name="description" content="MathTech | الرياضيات × التقنية - منصة تعليمية تجمع الرياضيات والتقنية للمعلم والطالب.">
+
+  <title>MathTech | الرياضيات × التقنية</title>
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="#home" aria-label="الرياضيات والتقنية">
-     <img class="brand-logo" src="logo.png" alt="الرياضيات والتقنية">
-      <span>
-        <strong>الرياضيات والتقنية</strong>
-        <small>منصة تعليمية للمرحلة الابتدائية</small>
-      </span>
-    </a>
+  <!-- =========================
+       Header
+  ========================== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
 
-    <nav class="nav" aria-label="التنقل الرئيسي">
-      <a class="active" href="#home">الرئيسية</a>
-      <a href="#student">للطلاب</a>
-      <a href="#teacher">للمعلم</a>
-      <a href="#resources">الموارد</a>
-      <a href="#technology">التقنية</a>
-    </nav>
-  </div>
-</header>
+      <a class="brand" href="#home" aria-label="الرياضيات والتقنية">
 
-<main id="home">
+        <img
+          class="brand-logo"
+          src="logo.png"
+          alt="شعار قناة الرياضيات والتقنية"
+        >
 
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <span class="eyebrow">تعلّم • تدرّب • استكشف</span>
-        <h1>الرياضيات<br><span>والتقنية</span></h1>
+        <span>
+          <strong>الرياضيات & التقنية</strong>
+          <small>منصة تعليمية وتطبيقية</small>
+        </span>
+
+      </a>
+
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        <a class="active" href="#home">الرئيسية</a>
+        <a href="#student">الطالب</a>
+        <a href="#teacher">المعلم</a>
+        <a href="#lab">المعمل الافتراضي</a>
+        <a href="#tools">الأدوات</a>
+        <a href="#links">الخدمات والروابط</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main id="home">
+
+    <!-- =========================
+         Hero
+    ========================== -->
+    <section class="hero">
+
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+
+          <span class="eyebrow">MathTech | الرياضيات × التقنية</span>
+
+          <h1>
+            الرياضيات تصبح
+            <span>أوضح، أسهل، وأكثر تفاعلاً</span>
+          </h1>
+
+          <p>
+            منصة تعليمية تجمع بين الرياضيات والتقنية في تجربة واحدة
+            للمعلم والطالب، من التعلم والمراجعة إلى التجربة والاستكشاف.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#student">
+              ابدأ رحلة التعلم
+            </a>
+
+            <a class="btn secondary" href="#teacher">
+              مساحة المعلم
+            </a>
+          </div>
+
+          <div class="hero-note">
+            ✦ تعلم • جرّب • استكشف • طبّق
+          </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+          <div class="hero-card-top">
+            <span>لوحة MathTech</span>
+            <span>∞</span>
+          </div>
+
+          <div class="math-display">
+            <div class="formula">رياضيات + تقنية</div>
+            <div class="formula-small">تعلم → تجربة → تطبيق</div>
+          </div>
+
+          <div class="hero-mini-grid">
+
+            <div>
+              <strong>طلاب</strong>
+              <span>تعلم ومراجعة</span>
+            </div>
+
+            <div>
+              <strong>معلمون</strong>
+              <span>موارد وأدوات</span>
+            </div>
+
+            <div>
+              <strong>مختبر</strong>
+              <span>تجارب تفاعلية</span>
+            </div>
+
+            <div>
+              <strong>تقنية</strong>
+              <span>استكشاف رقمي</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         Main Paths
+    ========================== -->
+    <section class="section" id="paths">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">اختر مسارك</span>
+
+          <h2>ماذا تريد أن تفعل اليوم؟</h2>
+
+          <p>
+            اختر المساحة المناسبة لك وابدأ مباشرة.
+          </p>
+
+        </div>
+
+
+        <div class="path-grid">
+
+          <article class="path-card">
+
+            <div class="icon student-icon">🎓</div>
+
+            <h3>الطالب</h3>
+
+            <p>
+              مهارات الرياضيات من الصف الأول حتى السادس،
+              تدريبات تفاعلية واستعداد للاختبارات.
+            </p>
+
+            <a href="#student-content">
+              الدخول لمسار الطالب ←
+            </a>
+
+          </article>
+
+
+          <article class="path-card">
+
+            <div class="icon teacher-icon">👩‍🏫</div>
+
+            <h3>المعلم</h3>
+
+            <p>
+              خطط دروس، أوراق عمل، موارد تعليمية،
+              وأفكار واستراتيجيات حديثة لتدريس الرياضيات.
+            </p>
+
+            <a href="#teacher-content">
+              الدخول لمسار المعلم ←
+            </a>
+
+          </article>
+
+
+          <article class="path-card">
+
+            <div class="icon lab-icon">🔬</div>
+
+            <h3>المعمل الافتراضي</h3>
+
+            <p>
+              تجارب وأنشطة رياضية تفاعلية تساعد على
+              الفهم من خلال الاستكشاف والملاحظة.
+            </p>
+
+            <a href="#lab">
+              اكتشف المعمل ←
+            </a>
+
+          </article>
+
+
+          <article class="path-card">
+
+            <div class="icon tools-icon">🧮</div>
+
+            <h3>أدوات وبرامج الرياضيات</h3>
+
+            <p>
+              مساحة تجمع الأدوات والبرامج التقنية
+              المفيدة في تعلم وتعليم الرياضيات.
+            </p>
+
+            <a href="#tools">
+              استكشف الأدوات ←
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         Telegram
+    ========================== -->
+    <section class="telegram-section">
+
+      <div class="container">
+
+        <div class="telegram-box">
+
+          <div class="telegram-logo">
+            <img
+              src="logo.png"
+              alt="شعار قناة الرياضيات والتقنية"
+            >
+          </div>
+
+          <div class="telegram-content">
+
+            <span class="eyebrow">المصدر والبداية</span>
+
+            <h2>﴿ الرياضيات & التقنية ﴾</h2>
+
+            <p>
+              قناة تعليمية تقنية تجمع للمعلم موارد مفيدة في الرياضيات،
+              من عروض تقديمية وأوراق عمل وتصاميم ومواد تعليمية.
+            </p>
+
+            <a
+              class="btn primary"
+              href="https://t.me/rsab_2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              زيارة قناة التليجرام
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         Student
+    ========================== -->
+    <section class="section soft" id="student-content">
+
+      <div class="container">
+
+        <div class="section-heading compact">
+
+          <span class="eyebrow">مسار الطالب</span>
+
+          <h2>تعلم الرياضيات بطريقة ممتعة</h2>
+
+          <p>
+            اختر الصف، ثم الوحدة، ثم الدرس للوصول إلى المحتوى والتدريبات.
+          </p>
+
+        </div>
+
+
+        <div class="grade-grid">
+
+          <a class="grade-card" href="#">
+            <b>01</b>
+            <span>الصف الأول</span>
+            <small>الأعداد والعمليات</small>
+          </a>
+
+          <a class="grade-card" href="#">
+            <b>02</b>
+            <span>الصف الثاني</span>
+            <small>الجمع والطرح والقياس</small>
+          </a>
+
+          <a class="grade-card" href="#">
+            <b>03</b>
+            <span>الصف الثالث</span>
+            <small>الضرب والقسمة</small>
+          </a>
+
+          <a class="grade-card" href="#">
+            <b>04</b>
+            <span>الصف الرابع</span>
+            <small>الكسور والهندسة</small>
+          </a>
+
+          <a class="grade-card" href="#">
+            <b>05</b>
+            <span>الصف الخامس</span>
+            <small>النسب والقياس</small>
+          </a>
+
+          <a class="grade-card" href="#">
+            <b>06</b>
+            <span>الصف السادس</span>
+            <small>مراجعة وتطبيق</small>
+          </a>
+
+        </div>
+
+
+        <div class="learning-flow">
+
+          <div class="flow-card">
+            <span>01</span>
+            <h3>شرح الدرس</h3>
+            <p>شرح مبسط وواضح للمفهوم الرياضي.</p>
+          </div>
+
+          <div class="flow-card">
+            <span>02</span>
+            <h3>ملخص</h3>
+            <p>أهم الأفكار والقواعد في مكان واحد.</p>
+          </div>
+
+          <div class="flow-card">
+            <span>03</span>
+            <h3>تدريب</h3>
+            <p>أسئلة من السهل إلى المتوسط ثم المتقدم.</p>
+          </div>
+
+          <div class="flow-card">
+            <span>04</span>
+            <h3>تحدٍ وتفكير</h3>
+            <p>مسائل تساعد على تنمية التفكير الرياضي.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         Teacher
+    ========================== -->
+    <section class="section" id="teacher-content">
+
+      <div class="container">
+
+        <div class="section-heading compact">
+
+          <span class="eyebrow">مسار المعلم</span>
+
+          <h2>موارد جاهزة تساعدك في الحصة</h2>
+
+          <p>
+            مساحة منظمة للموارد التعليمية والتخطيط والتنفيذ والتقويم.
+          </p>
+
+        </div>
+
+
+        <div class="resource-grid">
+
+          <article class="resource-card">
+            <span>📘</span>
+            <h3>خطط الدروس</h3>
+            <p>
+              أفكار وخطط مرتبة تساعدك على بناء حصة واضحة وفعالة.
+            </p>
+            <a href="#">استكشف الموارد ←</a>
+          </article>
+
+
+          <article class="resource-card">
+            <span>📄</span>
+            <h3>أوراق العمل</h3>
+            <p>
+              أنشطة وتدريبات رياضيات قابلة للاستخدام داخل الصف والمنزل.
+            </p>
+            <a href="#">عرض الأوراق ←</a>
+          </article>
+
+
+          <article class="resource-card">
+            <span>📊</span>
+            <h3>التقويم</h3>
+            <p>
+              أفكار للتقويم السريع وقياس فهم الطلاب.
+            </p>
+            <a href="#">أدوات التقويم ←</a>
+          </article>
+
+
+          <article class="resource-card">
+            <span>🎨</span>
+            <h3>تصاميم وعروض</h3>
+            <p>
+              موارد بصرية وعروض تقديمية تساعد على جعل الدرس أكثر تفاعلاً.
+            </p>
+            <a href="#">استكشف التصاميم ←</a>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         Virtual Lab
+    ========================== -->
+    <section class="section soft" id="lab">
+
+      <div class="container">
+
+        <div class="section-heading compact">
+
+          <span class="eyebrow">المعمل الافتراضي</span>
+
+          <h2>جرّب الرياضيات بدل أن تكتفي بقراءتها</h2>
+
+          <p>
+            أنشطة وتجارب افتراضية مرتبطة بالمفاهيم الرياضية،
+            تساعد الطالب على الملاحظة والتجربة والاستنتاج.
+          </p>
+
+        </div>
+
+
+        <div class="lab-grid">
+
+          <article class="lab-card">
+            <div>📐</div>
+            <h3>الهندسة</h3>
+            <p>استكشف الأشكال والزوايا والمحيط والمساحة.</p>
+            <a href="#">ابدأ التجربة ←</a>
+          </article>
+
+
+          <article class="lab-card">
+            <div>📈</div>
+            <h3>الدوال والرسوم</h3>
+            <p>غيّر القيم ولاحظ كيف تتغير الرسوم البيانية.</p>
+            <a href="#">ابدأ التجربة ←</a>
+          </article>
+
+
+          <article class="lab-card">
+            <div>🔢</div>
+            <h3>الأعداد والعمليات</h3>
+            <p>اكتشف الأنماط والعلاقات بين الأعداد.</p>
+            <a href="#">ابدأ التجربة ←</a>
+          </article>
+
+
+          <article class="lab-card">
+            <div>🎲</div>
+            <h3>الاحتمالات والإحصاء</h3>
+            <p>جرّب التجارب العشوائية وشاهد النتائج.</p>
+            <a href="#">ابدأ التجربة ←</a>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         Tools
+    ========================== -->
+    <section class="section" id="tools">
+
+      <div class="container">
+
+        <div class="section-heading compact">
+
+          <span class="eyebrow">التقنية في التعليم</span>
+
+          <h2>أدوات وبرامج مفيدة للرياضيات</h2>
+
+          <p>
+            مساحة مخصصة للبرامج والأدوات التي يمكن استخدامها
+            في تعلم وتعليم الرياضيات.
+          </p>
+
+        </div>
+
+
+        <div class="tools-intro">
+
+          <div class="tools-symbols" aria-hidden="true">
+            <span>∑</span>
+            <span>√</span>
+            <span>π</span>
+            <span>∞</span>
+          </div>
+
+          <div>
+
+            <h3>معمل الرياضيات</h3>
+
+            <p>
+              سيتم تنظيم البرامج والأدوات الواردة في مرجع
+              «معمل الرياضيات» داخل هذه المساحة بصورة واضحة
+              وسهلة الوصول.
+            </p>
+
+            <a class="btn secondary" href="#">
+              استكشف البرامج والأدوات
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         Resources
+    ========================== -->
+    <section class="section soft" id="resources">
+
+      <div class="container">
+
+        <div class="section-heading compact">
+
+          <span class="eyebrow">مكتبة الموارد</span>
+
+          <h2>كل ما تحتاجه في مكان واحد</h2>
+
+          <p>
+            مجموعة منظمة لتسهيل الوصول إلى مواد التعلم والتدريس.
+          </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+          <div class="feature">
+            <span class="feature-icon">🎯</span>
+            <div>
+              <h3>تدريبات تفاعلية</h3>
+              <p>
+                مهارات وتطبيقات رياضية تساعد على تثبيت الفهم.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="feature">
+            <span class="feature-icon">📚</span>
+            <div>
+              <h3>محتوى تعليمي</h3>
+              <p>
+                شرح مبسط للمفاهيم الأساسية في الرياضيات.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="feature">
+            <span class="feature-icon">🧩</span>
+            <div>
+              <h3>أنشطة وألعاب</h3>
+              <p>
+                تحويل المفاهيم الرياضية إلى تجربة ممتعة.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="feature">
+            <span class="feature-icon">🏆</span>
+            <div>
+              <h3>مراجعة واختبارات</h3>
+              <p>
+                راجع مهاراتك واستعد للاختبارات بثقة.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         Links
+    ========================== -->
+    <section class="section" id="links">
+
+      <div class="container">
+
+        <div class="section-heading compact">
+
+          <span class="eyebrow">الخدمات والروابط</span>
+
+          <h2>بوابتك إلى المصادر المفيدة</h2>
+
+          <p>
+            سيتم تنظيم الروابط حسب الفئة لتسهيل الوصول إليها.
+          </p>
+
+        </div>
+
+
+        <div class="links-grid">
+
+          <a href="#" class="link-card">
+            <span>👩‍🏫</span>
+            <div>
+              <strong>روابط المعلم</strong>
+              <small>مصادر وأدوات تعليمية</small>
+            </div>
+          </a>
+
+
+          <a href="#" class="link-card">
+            <span>🎓</span>
+            <div>
+              <strong>روابط الطالب</strong>
+              <small>مصادر للتعلم والمراجعة</small>
+            </div>
+          </a>
+
+
+          <a href="#" class="link-card">
+            <span>➗</span>
+            <div>
+              <strong>روابط الرياضيات</strong>
+              <small>مصادر وأدوات رياضية</small>
+            </div>
+          </a>
+
+
+          <a href="#" class="link-card">
+            <span>💻</span>
+            <div>
+              <strong>روابط التقنية</strong>
+              <small>أدوات رقمية مفيدة</small>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CTA
+    ========================== -->
+    <section class="cta section">
+
+      <div class="container cta-box">
+
+        <div>
+
+          <span class="eyebrow">جاهز لانطلاقتك؟</span>
+
+          <h2>
+            ابدأ رحلتك مع الرياضيات والتقنية
+          </h2>
+
+          <p>
+            اختر مسارك وابدأ الآن.
+          </p>
+
+        </div>
+
+        <a class="btn white" href="#student-content">
+          ابدأ التعلم
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       Footer
+  ========================== -->
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div>
+
+        <div class="footer-brand">
+
+          <img
+            class="brand-logo"
+            src="logo.png"
+            alt="شعار الرياضيات والتقنية"
+          >
+
+          <strong>الرياضيات & التقنية</strong>
+
+        </div>
+
         <p>
-          منصة تعليمية تجمع الرياضيات والتقنية والموارد التعليمية
-          في تجربة واحدة ممتعة وملهمة لطلاب المرحلة الابتدائية.
+          منصة تعليمية تجمع الرياضيات والتقنية في تجربة تعليمية
+          منظمة وممتعة.
         </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#student">ابدأ التعلّم ←</a>
-          <a class="btn secondary" href="#teacher">موارد المعلم</a>
-        </div>
-        <div class="checks">
-          <span>✓ محتوى منظم</span>
-          <span>✓ مناسب للمرحلة الابتدائية</span>
-          <span>✓ تجربة سهلة</span>
-        </div>
+
+        <p class="creator">
+          إعداد وتنفيذ: المعلمة ريم مبارك آل بَيُّوض
+        </p>
+
       </div>
 
-      <div class="hero-art" aria-hidden="true">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="math-circle">Σ</div>
-        <div class="float-card card-top">÷</div>
-        <div class="float-card card-left">△</div>
-        <div class="float-card card-light">💡</div>
-        <div class="float-card card-numbers">123<br>456</div>
-      </div>
-    </div>
-  </section>
 
-  <section class="pathways section" id="student">
-    <div class="container">
-      <div class="section-heading">
-        <span class="eyebrow">مسارات التعلّم</span>
-        <h2>اختر مسارك</h2>
-        <p>ابدأ من المكان المناسب لك وتقدم خطوة بخطوة.</p>
-      </div>
-
-      <div class="path-grid">
-        <article class="path-card">
-          <div class="icon student-icon">🎓</div>
-          <h3>الطالب</h3>
-          <p>مهارات الرياضيات من الصف الأول حتى السادس، تدريبات تفاعلية واستعداد للاختبارات.</p>
-          <a href="#student-content">الدخول لمسار الطالب ←</a>
-        </article>
-
-        <article class="path-card" id="teacher">
-          <div class="icon teacher-icon">👩‍🏫</div>
-          <h3>المعلم</h3>
-          <p>خطط دروس، أوراق عمل، موارد تعليمية واستراتيجيات حديثة لتدريس الرياضيات.</p>
-          <a href="#teacher-content">الدخول لمسار المعلم ←</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section soft" id="student-content">
-    <div class="container">
-      <div class="section-heading compact">
-        <span class="eyebrow">مسار الطالب</span>
-        <h2>تعلّم الرياضيات بطريقة ممتعة</h2>
-        <p>اختر الصف ثم ابدأ التدريب والمراجعة.</p>
-      </div>
-
-      <div class="grade-grid">
-        <a class="grade-card" href="#"><b>01</b><span>الصف الأول</span><small>الأعداد والعمليات</small></a>
-        <a class="grade-card" href="#"><b>02</b><span>الصف الثاني</span><small>الجمع والطرح</small></a>
-        <a class="grade-card" href="#"><b>03</b><span>الصف الثالث</span><small>الضرب والقسمة</small></a>
-        <a class="grade-card" href="#"><b>04</b><span>الصف الرابع</span><small>الكسور والهندسة</small></a>
-        <a class="grade-card" href="#"><b>05</b><span>الصف الخامس</span><small>النسب والقياس</small></a>
-        <a class="grade-card" href="#"><b>06</b><span>الصف السادس</span><small>مراجعة واستعداد</small></a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="teacher-content">
-    <div class="container">
-      <div class="section-heading compact">
-        <span class="eyebrow">مسار المعلم</span>
-        <h2>كل ما تحتاجه للحصة</h2>
-        <p>موارد جاهزة تساعدك على التخطيط والتنفيذ والتقويم.</p>
-      </div>
-
-      <div class="resource-grid">
-        <article class="resource-card"><span>📘</span><h3>خطط الدروس</h3><p>خطط مرتبة تساعدك على بناء حصة واضحة وفعالة.</p><a href="#resources">استكشف الموارد ←</a></article>
-        <article class="resource-card"><span>📝</span><h3>أوراق العمل</h3><p>أنشطة وتدريبات قابلة للاستخدام داخل الصف أو المنزل.</p><a href="#resources">عرض أوراق العمل ←</a></article>
-        <article class="resource-card"><span>📊</span><h3>التقويم</h3><p>أفكار للتقويم السريع وقياس فهم الطلاب.</p><a href="#resources">أدوات التقويم ←</a></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section soft" id="resources">
-    <div class="container">
-      <div class="section-heading compact">
-        <span class="eyebrow">مكتبة الموارد</span>
-        <h2>موارد جاهزة بين يديك</h2>
-        <p>مجموعة منظمة لتسهيل التعلم والتدريس.</p>
-      </div>
-
-      <div class="feature-grid">
-        <div class="feature"><span class="feature-icon">🎯</span><div><h3>تدريبات تفاعلية</h3><p>تدرب على المهارة واحصل على تغذية راجعة مباشرة.</p></div></div>
-        <div class="feature"><span class="feature-icon">📚</span><div><h3>محتوى تعليمي</h3><p>شرح مبسط للمفاهيم الأساسية في الرياضيات.</p></div></div>
-        <div class="feature"><span class="feature-icon">🧩</span><div><h3>أنشطة وألعاب</h3><p>حوّل المفاهيم الرياضية إلى تجربة ممتعة.</p></div></div>
-        <div class="feature"><span class="feature-icon">🏆</span><div><h3>مراجعة واختبارات</h3><p>راجع مهاراتك واستعد للاختبارات بثقة.</p></div></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="tech section" id="technology">
-    <div class="container tech-box">
       <div>
-        <span class="eyebrow">التقنية في التعليم</span>
-        <h2>نتعلم الرياضيات ونكتشف التقنية</h2>
-        <p>تعرف على مفاهيم تقنية مبسطة، وأفكار عملية تربط الرياضيات بالعالم الرقمي من حولنا.</p>
-        <a class="btn primary" href="#resources">استكشف التقنية ←</a>
-      </div>
-      <div class="tech-symbols" aria-hidden="true">
-        <span>{ }</span><span>01</span><span>π</span><span>⌘</span>
-      </div>
-    </div>
-  </section>
 
-  <section class="cta section">
-    <div class="container cta-box">
+        <h4>روابط سريعة</h4>
+
+        <a href="#student-content">الطلاب</a>
+        <a href="#teacher-content">المعلم</a>
+        <a href="#lab">المعمل الافتراضي</a>
+        <a href="#tools">الأدوات</a>
+
+      </div>
+
+
       <div>
-        <span class="eyebrow">جاهز للانطلاق؟</span>
-        <h2>ابدأ رحلتك مع الرياضيات والتقنية</h2>
-        <p>اختر مسارك وابدأ الآن.</p>
+
+        <h4>عن المنصة</h4>
+
+        <a href="#home">الرئيسية</a>
+        <a href="#resources">الموارد</a>
+        <a href="#links">الخدمات والروابط</a>
+
       </div>
-      <a class="btn white" href="#student">ابدأ التعلّم</a>
-    </div>
-  </section>
 
-</main>
 
-<footer class="footer">
-  <div class="container footer-grid">
-    <div>
-      <div class="footer-brand"><img class="brand-logo" src="logo.png" alt="الرياضيات والتقنية"><strong>الرياضيات والتقنية</strong></div>
-      <p>منصة تعليمية مبسطة تجمع الرياضيات والتقنية في تجربة واحدة.</p>
+      <div>
+
+        <h4>قناة التليجرام</h4>
+
+        <a
+          href="https://t.me/rsab_2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ﴿ الرياضيات & التقنية ﴾
+        </a>
+
+      </div>
+
     </div>
-    <div><h4>روابط</h4><a href="#student">للطلاب</a><a href="#teacher">للمعلم</a><a href="#resources">الموارد</a></div>
-    <div><h4>عن المنصة</h4><a href="#technology">التقنية</a><a href="#home">الرئيسية</a></div>
-  </div>
-  <div class="copyright">© 2026 الرياضيات والتقنية — جميع الحقوق محفوظة</div>
-</footer>
+
+
+    <div class="copyright">
+      © 2026 الرياضيات & التقنية — جميع الحقوق محفوظة
+    </div>
+
+  </footer>
 
 </body>
 </html>
