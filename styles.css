@@ -173,3 +173,13 @@ h1 span{color:var(--teal)}
     padding: 75px 0;
   }
 }
+/* تحسين ظهور الصفحة على iPad */
+@media (min-width: 901px) and (max-width: 1366px) {
+  .hero {
+    min-height: 520px;
+  }
+
+  .hero-grid {
+    padding: 35px 0;
+  }
+}
