@@ -151,3 +151,25 @@ h1 span{color:var(--teal)}
     height: 280px;
   }
 }
+@media (min-width: 901px) and (max-width: 1366px) {
+  .container {
+    width: min(1080px, 90%);
+  }
+
+  .hero {
+    min-height: 600px;
+  }
+
+  .hero-grid {
+    gap: 30px;
+    padding: 55px 0;
+  }
+
+  .hero-copy h1 {
+    font-size: 58px;
+  }
+
+  .section {
+    padding: 75px 0;
+  }
+}
