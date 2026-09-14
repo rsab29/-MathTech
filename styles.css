@@ -118,3 +118,36 @@ h1 span{color:var(--teal)}
 .telegram-logo {
   opacity: 0.12;
 }
+.telegram-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.telegram-logo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.10;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.telegram-logo img {
+  width: 420px;
+  height: 420px;
+  object-fit: contain;
+}
+
+.telegram-content {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 620px) {
+  .telegram-logo img {
+    width: 280px;
+    height: 280px;
+  }
+}
